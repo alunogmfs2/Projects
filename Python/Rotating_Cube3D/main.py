@@ -1,6 +1,6 @@
 import pygame as pg
 import numpy as np
-from math import *
+from math import * #type:ignore
 
 import pygame.display
 
@@ -92,8 +92,7 @@ while True:
 
         x = int(projected2d[0][0] * scale) + circle_pos[0]
         y = int(projected2d[1][0] * scale) + circle_pos[1]
-
-        projected_points[i] = [x, y]
+        projected_points[i] = [x, y] #type: ignore
         pygame.draw.circle(win, WHITE, (x, y), 7)
         i += 1
 
