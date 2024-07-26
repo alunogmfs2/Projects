@@ -26,8 +26,3 @@ print(f'Temperatura: {temperatura}°C')
 print(f'Temperatura mínima: {temperatura_minima}°C')
 print(f'Temperatura máxima: {temperatura_maxima}°C')
 print(f'Humidade: {humidade}%')
-
-pywhatkit.sendwhatmsg('+491772251975', f'Temperatura: {temperatura}°C, Temperatura mínima: {temperatura_minima}°C, Temperatura máxima: {temperatura_maxima}°C, Humidade: {humidade}%', 20, 10)
-pyautogui.hotkey('winleft', '2')
-pyautogui.sleep(0.1)
-pyautogui.press('enter')
