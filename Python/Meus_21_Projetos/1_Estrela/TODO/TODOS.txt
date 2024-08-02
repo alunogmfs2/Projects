@@ -1,0 +1,1 @@
+[[1, True, 'Fazer a Cama'], [2, True, 'Fazer uma Caminhada'], [3, True, 'Pentear o Cabelo'], [4, False, 'Ir para a Escola'], [5, False, 'Brincar com a Sophia']]
