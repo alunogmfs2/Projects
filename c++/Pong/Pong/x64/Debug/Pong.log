@@ -1,1 +1,22 @@
-﻿
+﻿  Pong.cpp
+E:\Programacao\Projetos\Projects\c++\Pong\Bola.h(26,27): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
+E:\Programacao\Projetos\Projects\c++\Pong\Bola.h(26,20): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
+E:\Programacao\Projetos\Projects\c++\Pong\Bola.h(28,25): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+E:\Programacao\Projetos\Projects\c++\Pong\Bola.h(29,57): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
+E:\Programacao\Projetos\Projects\c++\Pong\Bola.h(29,30): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
+E:\Programacao\Projetos\Projects\c++\Pong\Pong.cpp(18,32): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
+E:\Programacao\Projetos\Projects\c++\Pong\Pong.cpp(18,18): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
+E:\Programacao\Projetos\Projects\c++\Pong\Pong.cpp(19,32): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
+E:\Programacao\Projetos\Projects\c++\Pong\Pong.cpp(19,18): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
+E:\Programacao\Projetos\Projects\c++\Pong\Pong.cpp(20,32): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
+E:\Programacao\Projetos\Projects\c++\Pong\Pong.cpp(20,18): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
+E:\Programacao\Projetos\Projects\c++\Pong\Pong.cpp(21,32): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
+E:\Programacao\Projetos\Projects\c++\Pong\Pong.cpp(21,18): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
+  bola.cpp
+E:\Programacao\Projetos\Projects\c++\Pong\bola.h(26,27): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
+E:\Programacao\Projetos\Projects\c++\Pong\bola.h(26,20): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
+E:\Programacao\Projetos\Projects\c++\Pong\bola.h(28,25): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+E:\Programacao\Projetos\Projects\c++\Pong\bola.h(29,57): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
+E:\Programacao\Projetos\Projects\c++\Pong\bola.h(29,30): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
+  Gerando Código...
+  Pong.vcxproj -> E:\Programacao\Projetos\Projects\c++\Pong\x64\Debug\Pong.exe

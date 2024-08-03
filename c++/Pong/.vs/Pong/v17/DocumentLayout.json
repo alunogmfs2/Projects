@@ -1,12 +1,54 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\Programacao\\Projetos\\Projects\\c\u002B\u002B\\Pong\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7DE50F49-8993-4F07-ACC7-5DB44F4D95E7}|Pong.vcxproj|E:\\Programacao\\Projetos\\Projects\\c\u002B\u002B\\Pong\\Pong.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7DE50F49-8993-4F07-ACC7-5DB44F4D95E7}|Pong.vcxproj|solutionrelative:Pong.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DE50F49-8993-4F07-ACC7-5DB44F4D95E7}|Pong.vcxproj|E:\\Programacao\\Projetos\\Projects\\c\u002B\u002B\\Pong\\bola.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7DE50F49-8993-4F07-ACC7-5DB44F4D95E7}|Pong.vcxproj|solutionrelative:bola.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Bola.h",
+              "DocumentMoniker": "E:\\Programacao\\Projetos\\Projects\\c\u002B\u002B\\Pong\\Bola.h",
+              "RelativeDocumentMoniker": "Bola.h",
+              "ToolTip": "E:\\Programacao\\Projetos\\Projects\\c\u002B\u002B\\Pong\\Bola.h",
+              "RelativeToolTip": "Bola.h",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-08-03T08:16:06.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Pong.cpp",
+              "DocumentMoniker": "E:\\Programacao\\Projetos\\Projects\\c\u002B\u002B\\Pong\\Pong.cpp",
+              "RelativeDocumentMoniker": "Pong.cpp",
+              "ToolTip": "E:\\Programacao\\Projetos\\Projects\\c\u002B\u002B\\Pong\\Pong.cpp",
+              "RelativeToolTip": "Pong.cpp",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAqwGMAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-03T06:33:25.963Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
