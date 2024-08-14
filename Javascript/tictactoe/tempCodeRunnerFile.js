@@ -1,0 +1,2 @@
+desenharTabuleiro()
+    perguntarPosicao()

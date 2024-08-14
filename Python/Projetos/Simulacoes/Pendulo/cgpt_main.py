@@ -16,8 +16,8 @@ class Pendulo:
         self.x_l = LARGURA / 2
         self.y_l = ALTURA / 2 - 100
         
-        self.r = 250
-        self.angulo = 90
+        self.r = 150
+        self.angulo = 45
         self.angulo_r = math.radians(self.angulo)
         self.omega = 0
         self.G = 9.81
@@ -50,7 +50,7 @@ class Pendulo:
 pendulo = Pendulo()
 
 while True:
-    dt = clock.tick(60) / 1000  # 60 FPS, convert ms to s
+    dt = clock.tick(60) / 100  # 60 FPS, convert ms to s
     for event in pygame.event.get():
         if event.type == QUIT:
             pygame.quit()
