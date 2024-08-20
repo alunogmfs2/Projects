@@ -52,7 +52,7 @@ while True:
             pygame.quit()
             exit()
 
-    for i in range(100):
+    for i in range(1000):
         desenharPonto()
         novoPonto()
 
