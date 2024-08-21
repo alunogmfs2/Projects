@@ -1,1 +1,1 @@
-KEYDOWN
+left mouse down

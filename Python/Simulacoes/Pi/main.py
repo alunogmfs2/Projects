@@ -16,9 +16,9 @@ AZUL_ESCURO = (25, 25, 112)
 MASSAQP = 1
 MASSAQG = 1
 
-PACOS = 100
+PACOS = 1000000
 
-DIGITOS = 3
+DIGITOS = 7
 
 # Variaveis de Tamanho
 ybuff = 100
