@@ -39,7 +39,7 @@ class Tamagotchi(pygame.sprite.Sprite):
         self.rect.center = (self.x, self.y)
 
     def update_sprite(self):
-        self.index_lista += 0.01
+        self.index_lista += 0.05
         if self.index_lista > 4:
             self.index_lista = 0
         self.image = self.imagens_tamagotchi[int(self.index_lista)]

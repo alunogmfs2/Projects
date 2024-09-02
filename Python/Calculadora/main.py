@@ -25,7 +25,7 @@ def descision() -> None:
                 raise ValueError
             break
         except ValueError:
-            print("Falsche Eingabe. Bitte geben Sie eine gültige Zahl ein.")
+            print("\033[31mFalsche Eingabe. Bitte geben Sie eine gültige Zahl ein.\033[m")
             print()
             continue
     translateDescision(choice)
@@ -55,7 +55,7 @@ def continueWithResult(res: float) -> None:
         print()
         
         if choice != "j" and choice != "n":
-            print("Falsche Eingabe, geben Sie eine gültige Wahl ein.")
+            print("\033[31mFalsche Eingabe, geben Sie eine gültige Wahl ein.\033[m")
             print()
             system("pause")
             continue
@@ -81,7 +81,7 @@ def numbers() -> tuple[int]:
             print()
             return n1, n2
         except ValueError:
-            print("Falsche Eingabe, geben Sie eine Zahl ein")
+            print("\033[31mFalsche Eingabe, geben Sie eine Zahl ein\033[m")
             print()
             system("pause")
 
@@ -113,7 +113,7 @@ def divide() -> None:
     while True:
         num1, num2 = numbers()
         if num2 == 0:
-            print("Es kann nicht durch 0 geteilt werden.")
+            print("\033[31mEs kann nicht durch 0 geteilt werden.\033[m")
             system("pause")
             continue
         result: float = num1 / num2
@@ -126,13 +126,10 @@ def divide() -> None:
 def power() -> None:
     while True:
         num1, num2 = numbers()
-        if num2 > 20:
-            print("Es kann nicht hoch-gerechnet werden, weil die Zahl zu groß ist.")
+        if num2 > 20 or num1 > 10**20:
+            print("\033[31mEs kann nicht hoch-gerechnet werden, weil die Zahl zu groß ist.\033[m")
             system("pause")
             continue
-        
-        if num1 > 10**20:
-            print("Es kann nicht hoch-gerechnet werden, weil die Zahl zu groß ist")
         
         result: float = num1 ** num2
         print(f"{num1} ^ {num2} = {result}")
