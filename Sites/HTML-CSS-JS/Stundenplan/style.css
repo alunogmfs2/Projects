@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+    text-align: center;
+    
+    font-size: larger;
+    
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+}
+
+.zeit {
+    background-color: red;
+}
+
+td, th {
+    padding: 12px 35px;
+    text-align: center;
+
+    
+}
+
+.wt {
+    background-color: lightgreen;
+}
+
+.dtd {
+    background-color: yellow;
+}
+
+.etd {
+    background-color: darkorange;
+}
+
+.biotd {
+    background-color: green;
+}
+
+.getd {
+    background-color: pink;
+}
+
+.mtd {
+    background-color: cyan;
+}
+
+.mutd {
+    background-color: greenyellow;
+}
+
+.phtd {
+    background-color: darkgreen;
+}
+
+.ftd {
+    background-color: red;
+}
+
+.rrktd {
+    background-color: violet;
+}
+
+.sptd {
+    background-color: darkred;
+}
+
+.ktd {
+    background-color: darkcyan;
+}
+
+.chortd {
+    background-color: bisque;
+}
+
+.swtd {
+    background-color: coral;
+}
+
+.pause {
+    background-color: orange;
+}
